@@ -1,3 +1,4 @@
+### Logical operators
 
 | Operator |	Description |
 |--|--|
@@ -26,6 +27,10 @@
 |file1 -nt file2 |	True if file1 is newer (according to modification date) than file2, or if file1 exists and file2 does not |
 |file1 -ot file2 |	True if file1 is older than file2, or if file2 exists and file1 does not |
 
+### String Comparison
+
+| Operator |	Description |
+|--|--|
 |-z string |	True if the length of string is zero|
 |-n string |	True if the length of string is non-zero|
 |string1 == string2 or string1 = string2 |	True if the strings are equal; a single = should be used with the test command for POSIX conformance. When used with the [[ command, this performs pattern matching as described above (compound commands).|
